@@ -1,0 +1,362 @@
+*{
+    margin: 0  ;
+    padding: 0  ;
+}
+
+.row{
+ margin: 0;
+}
+
+/*--------------------------------------------------------Navigation---------------------------------------------------------------------*/
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img {
+    height: 100px;
+    padding-left: 30px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+    padding: 0 10px;
+}
+
+#nav-bar ul li a: hover {
+    color: #007bff !important;
+}
+
+.navbar {
+    background: #fff;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.nav-link {
+    color: #555 !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*---------------------------------------------------------------GRID-------------------------------------------------------------------------------*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    background-color: white;
+    padding: 10px;
+    box-shadow: silver 0 0 3px;
+    color:blue;
+}
+
+.grid-item {
+    background-color: rgba(0, 173, 121, 0.3);
+    border: 1px solid gray;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.follow {
+    text-align: left;
+}
+
+.fa {
+    font-size: 10px;
+}
+
+/**************************************************************SIGNUP*************************************/
+
+.form-div{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.form-div label{
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.div1 {
+    background-color: #3636ad;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.para1 {
+    font-size: 17px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+
+.para2 {
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    padding-left: 20px;
+}
+
+.para3 {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.input {
+    height: 40px;
+    width: 90%;
+    margin: 5%;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn {
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    background: crimson;
+    color: white;
+    cursor: pointer;
+    width: 70%;
+    margin: 5% 15%;
+}
+
+.sp1 {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.sp2 {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.so-icon {
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+#fb1 {
+    margin-right: 10px;
+    border: 1px solid white;
+    padding: 8px;
+    width: 40px;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    color: #000000;
+}
+
+#google {
+    border: 1px solid white;
+    padding: 7px;
+    width: 38px;
+    border-radius: 50%;
+    background: white;
+    text-align: center;
+    color: #000000;
+}
+
+@media (max-width: 990px) {
+    .col-div {
+        width: 80%%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .sub-div {
+        width: 47%;
+    }
+}
+
+@media (max-width: 800px) {
+    .sub-div {
+        width: 90%;
+    }
+}
+
+/*-------------------------------------------------------------FOOTER--------------------------------------------------*/
+
+.footer {
+    background: #222222;
+    padding: 50px;
+}
+
+.footer .footer_menu {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto 25px;
+    justify-content: space-between;
+}
+
+.footer .footer_menu .title {
+    margin-bottom: 10px;
+    color: #adadad;
+}
+
+.footer_class li a {
+    display: block;
+    color: #fff;
+    list-style: none;
+}
+
+.footer .footer_menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .partners {
+    margin-bottom: 25px;
+}
+
+.footer .partners ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer .partners li a {
+    background: url('partners.png') no-repeat 0 0;
+    width: 101px;
+    height: 100px;
+    display: block;
+    margin: 0 5px;
+}
+
+.footer .partners li a.partner1 {
+    background-position: 0 0;
+    width: 100px;
+    height: 100px;
+}
+
+.footer .partners li a.partner2 {
+    background-position: 0 -108px;
+    width: 100px;
+    height: 101px;
+}
+
+.footer .partners li a.partner3 {
+    background-position: 0 -216px;
+    width: 100px;
+    height: 101px;
+}
+
+.footer .partners li a.partner4 {
+    background-position: 0 -325px;
+    width: 100px;
+    height: 101px;
+}
+
+.footer .partners li a.partner5 {
+    background-position: 0 -446px;
+    width: 100px;
+    height: 100px;
+}
+
+.footer .social_media {
+    text-align: center;
+}
+
+.footer .social_media ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.footer .social_media ul li a {
+    display: block;
+    margin: 0 5px;
+    color: #fff;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    color: #222222;
+    line-height: 50px;
+    border-radius: 3px;
+}
+
+.footer .social_media ul li a:hover {
+    color: #fff;
+}
+
+.footer .social_media ul li a.facebook:hover {
+    background: #3b5998;
+}
+
+.footer .social_media ul li a.twitter:hover {
+    background: #1da1f2;
+}
+
+.footer .social_media ul li a.instagram:hover {
+    background: #c32aa3;
+}
+
+.footer .social_media ul li a.whatsapp:hover {
+    background: #25d366;
+}
+
+.footer .social_media {
+    color: #adadad;
+}
+
+@media (max-width: 768px) {
+    .wrapper .navbar .logo {
+        font-size: 20px;
+    }
+
+    .main_container {
+        padding: 25px;
+    }
+
+    .main_container .item {
+        flex-direction: column;
+    }
+
+    .main_container .item .img_holder {
+        max-width: 750px;
+        width: 100%;
+    }
+
+    .main_container .item .item_info {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .footer .footer_menu {
+        flex-direction: column;
+        width: 220px;
+        margin: 0 auto 25px;
+    }
+
+    .footer .footer_menu > div {
+        margin: 10px 0;
+    }
+
+    .footer .partners ul li a {
+        margin: 5px;
+    }
+}
+
